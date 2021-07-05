@@ -15,7 +15,7 @@
         <p><a href="/">Revenir a la page d'acceuille.</a></p>
 
         <footer>
-            <p>&copy; Copyrigth {{ date('Y') }} &middot; <a href="/about-us">About Us</a></p>
+            <p>&copy; Copyrigth {{ date('Y') }} </p>
         </footer>
     </body>
 </html>
