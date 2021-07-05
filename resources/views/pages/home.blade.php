@@ -1,5 +1,7 @@
 @extends('base')
 
+@section('title', 'Hello City')
+
 @section('content')
  
     <h1>Hello from Dschang!</h1>
