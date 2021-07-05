@@ -4,17 +4,18 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title>Hello City</title>
+        <title>About Us | Hello City</title>
 
     </head>
 
     <body>
-        <h1>Hello from Dschang!</h1>
+        
+        <p>Built with &hearts by KUROHIGE.</p>
 
-        <p>It's currently {{ date('h:i A') }}</p>
+        <p><a href="/">Revenir a la page d'acceuille.</a></p>
 
         <footer>
-            <p>&copy; Copyrigth {{ date('Y') }} &middot; <a href="about-us">About Us</a></p>
+            <p>&copy; Copyrigth {{ date('Y') }} &middot; <a href="/about-us">About Us</a></p>
         </footer>
     </body>
 </html>
