@@ -13,7 +13,12 @@
         @yield('content')
 
         <footer>
-            <p>&copy; Copyrigth {{ date('Y') }} &middot; <a href="{{ route('app_about') }}">About Us</a></p>
+            <p>
+                &copy; Copyrigth {{ date('Y') }} 
+                @if(! Route::is('app_about'))
+                &middot; <a href="{{ route('app_about') }}">About Us</a>
+                @endif
+            </p>
         </footer>
     </body>
 </html>
