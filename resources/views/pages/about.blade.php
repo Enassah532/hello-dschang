@@ -10,11 +10,15 @@
 
 
 @section('content')
-    <img src="{{ asset('/img/univ-dschang-logo.png') }}" alt="University Of Dschang Logo">
+    <img src="{{ asset('/img/univ-dschang-logo.png') }}" alt="University Of Dschang Logo" class="my-12 rounded=full shadow-md">
         
-    <p>Built with &hearts; by KUROHIGE.</p>
+    <h2 class="mb-5 text-gray-700">
+        Built with <span class="text-pink-500">&hearts;</span> by KUROHIGE.
+    </h2>
 
-    <p><a href="{{ route('app_home')}}">Revenir a la page d'acceuille.</a></p>
+    <p>
+        <a href="{{ route('app_home')}}" class="text-indigo-500 hover:text-indigo-700 underline">Revenir a la page d'acceuille.</a>
+    </p>
 
 @endsection
 
