@@ -11,9 +11,9 @@
 
 @section('content')
         
-    <p>Built with &hearts by KUROHIGE.</p>
+    <p>Built with &hearts; by KUROHIGE.</p>
 
-    <p><a href="/">Revenir a la page d'acceuille.</a></p>
+    <p><a href="{{ route('app_home')}}">Revenir a la page d'acceuille.</a></p>
 
 @endsection
 
