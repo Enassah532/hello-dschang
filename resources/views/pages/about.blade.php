@@ -10,7 +10,7 @@
 
 
 @section('content')
-    <img src="/img/univ-dschang-logo.png" alt="University Of Dschang Logo">
+    <img src="{{ asset('/img/univ-dschang-logo.png') }}" alt="University Of Dschang Logo">
         
     <p>Built with &hearts; by KUROHIGE.</p>
 
