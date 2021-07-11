@@ -4,10 +4,6 @@
 
 @section('content')
 
-@endsection
-
-@section('content')
-
 
 @section('content')
     <img src="{{ asset('/img/univ-dschang-logo.png') }}" alt="University Of Dschang Logo" class="my-12 rounded=full shadow-md">
