@@ -4,7 +4,7 @@
 
 @section('content')
 
-@ensection
+@endsection
 
 @section('content')
 
